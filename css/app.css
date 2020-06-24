@@ -1,0 +1,13 @@
+body{
+    font-family: "Roboto, sans-serif";
+}
+
+.title{
+    position: relative;
+    left: 0;
+    transition: all 0.2s linear;
+}
+
+.title.animated{
+    left: 500px;
+}
