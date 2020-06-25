@@ -1,13 +1,26 @@
 body{
     font-family: "Roboto, sans-serif";
-}
+    background-color: brown;
+    }
+
+/* .title{
+    position: relative;
+    left: 0;
+    transition: all 3s linear;
+} */
 
 .title{
     position: relative;
-    left: 0;
-    transition: all 0.2s linear;
+    transform: translateX(0);
+    transition: all 2s linear;
+    opacity: 0;
 }
 
-.title.animated{
-    left: 500px;
+/* .title.animate{
+    left: 1000px;
+} */
+
+.title.animate{
+    transform: translateX(500px);
+    opacity: 1;
 }

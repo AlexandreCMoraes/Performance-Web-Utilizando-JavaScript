@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="css/app.css">
     <title>Processamento único</title>
 </head>
 
 <body>
 
     <h2 class="title">
-        Título da página
+        Rick and Morty, DUde!
     </h2>
-    <!-- <img src="" alt="">
-    <button id="btn-js">Click me</button>
+    <img src="img/Rick and Morty.gif" alt="Rick and Morty dub dub" title="Rick Sanchez, Wubba LUbba Dub Dub">
+    <button id="btn-js">Click here, Mrs. Picles</button>
     <h2 id="hello">
 
     </h2>
@@ -25,53 +26,63 @@
         $button.addEventListener("click", e => {
             e.preventDefault();
 
-            $hello.innerHTML += 'Fui clicado <br/>';
-        }) -->
+            $hello.innerHTML += ' WuBba LUbba Dub Dub <br/>';
+        })
 
-        <!-- // for (let i = 0; i < 1000; i++) {
-        //     console.log('I am Iron Man')
+        // for (let i = 0; i < 1000; i++) {
+        //     console.log('Planejar o fracasso é ainda mais idiota do que simplesmente planejar.')
         // }
 
         // while (true) {
-        //     console.log('I am Iron Man')
+        //     console.log('Planejar o fracasso é ainda mais idiota do que simplesmente planejar.')
         // }
 
         // for (let i = 0; i < 1000; i++) {
-        //     document.getElementById('hello').innerHTML += 'Fui clicado'
+        //     document.getElementById('hello').innerHTML += 'WuBba LUbba Dub Dub '
         // }
 
         // setTimeout(function () {
         //     for (let i = 0; i < 1000; i++) {
-        //         document.getElementById('hello').innerHTML += 'Fui clicado'
+        //         $hello.innerHTML += 'WuBba LUbba Dub Dub '
         //     }
-        // }, 1000)
+        //     alert("Planejar o fracasso é ainda mais idiota do que simplesmente planejar. Dê o 'ok', Mrs. Picles ! ! !")
+
+        // }, 1500)
 
         // setTimeout(function () {
         //     let content = '';
         //     for (let i = 0; i < 1000; i++) {
-        //         content += 'Fui clicado'
+        //         content += 'WuBba LUbba Dub Dub '
         //     }
+        //     alert("Planejar o fracasso é ainda mais idiota do que simplesmente planejar. Dê o 'ok', Mrs. Picles ! ! !")
+
 
         //     $hello.innerHTML = content;
         // }, 1000)
 
-        // requestAnimationFrame(function () {
-        //     let content = '';
-        //     for (let i = 0; i < 1000; i++) {
-        //         content += 'Fui clicado'
-        //     }
-        //     $hello.innerHTML = content;
-        // })
+        requestAnimationFrame(function () {
+            let content = '';
+            for (let i = 0; i < 100; i++) {
+                content += 'WuBba LUbba Dub Dub '
+            }
+            $hello.innerHTML = content;
+        })
 
         // requestIdleCallback(function () {
         //     let content = '';
         //     for (let i = 0; i < 1000; i++) {
-        //         content += 'Fui clicado'
+        //         content += 'WuBba LUbba Dub Dub '
         //     }
         //     $hello.innerHTML = content;
         // }, 100)
- -->
-    <!-- </script> -->
+
+        setTimeout(function () {
+            document.querySelector('.title').classList.add('animate')
+            alert("Planejar o fracasso é ainda mais idiota do que simplesmente planejar. Dê o 'ok', Mrs. Picles ! ! !")
+
+        }, 1)
+
+    </script>
 
 
 </body>
